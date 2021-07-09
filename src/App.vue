@@ -1,15 +1,15 @@
 <template>
-  <Gallery />
+  <Flex />
 </template>
 
 <script>
-import Gallery from "./components/Gallery.vue";
+import Flex from "./components/Flex.vue";
 
 export default {
   name: "App",
 
   components: {
-    Gallery,
+    Flex,
   },
 };
 </script>
