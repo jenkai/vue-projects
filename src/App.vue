@@ -1,25 +1,24 @@
 <template>
-  <Flex />
+  <Bootstrap />
+  <Card />
 </template>
 
 <script>
-import Flex from "./components/Flex.vue";
+import Bootstrap from "./components/Bootstrap.vue";
+import Card from "./components/Card.vue";
 
 export default {
   name: "App",
 
   components: {
-    Flex,
+    Bootstrap,
+    Card,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  font-family: "Futura";
 }
 </style>
